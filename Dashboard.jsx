@@ -7,7 +7,7 @@ import {
   PolarRadiusAxis,
   ResponsiveContainer,
 } from "recharts";
-import { useAnalysis } from "../context/AnalysisContext.jsx";
+import { useAnalysis } from "./AnalysisContext.jsx";
 
 const LABELS = {
   dsa: "DSA",
