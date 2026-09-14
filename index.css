@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #e8a33d33;
+}
+
+@layer components {
+  .input {
+    @apply w-full h-11 bg-ink border border-panelBorder rounded-md px-3 text-paper text-sm
+      focus:outline-none focus:border-accent transition;
+  }
+}
