@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAnalysis } from "../context/AnalysisContext.jsx";
+import { useAnalysis } from "./AnalysisContext.jsx";
 import { submitAnalysis } from "../services/api.js";
 
 const ROLES = ["Software Engineer", "Backend Developer", "Full-Stack Developer", "Data Analyst"];
