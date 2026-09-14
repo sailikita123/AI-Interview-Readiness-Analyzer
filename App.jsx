@@ -1,12 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import { AnalysisProvider } from "./AnalysisContext.jsx";
-import Landing from "./pages/Landing.jsx";
-import InputFlow from "./pages/InputFlow.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
-import Roadmap from "./pages/Roadmap.jsx";
-import Interview from "./pages/Interview.jsx";
-import Report from "./pages/Report.jsx";
-
+import Landing from "./Landing.jsx";
+import InputFlow from "./InputFlow.jsx";
+import Dashboard from "./Dashboard.jsx";
+import Roadmap from "./Roadmap.jsx";
+import Interview from "./Interview.jsx";
+import Report from "./Report.jsx";
 export default function App() {
   return (
     <AnalysisProvider>
