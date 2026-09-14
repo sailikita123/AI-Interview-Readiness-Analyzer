@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { AnalysisProvider } from "./context/AnalysisContext.jsx";
+import { AnalysisProvider } from "./AnalysisContext.jsx";
 import Landing from "./pages/Landing.jsx";
 import InputFlow from "./pages/InputFlow.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
